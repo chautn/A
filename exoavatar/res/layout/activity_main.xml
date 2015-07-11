@@ -8,9 +8,8 @@
 	android:paddingTop="@dimen/activity_vertical_margin"
 	tools:context="me.learn.android.p1.exoavatar.MainActivity" >
 
-	<TextView
-		android:layout_width="wrap_content"
+	<ImageView android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
-		android:text="@string/hello_world" />
-
+		android:contentDescription="avatar"
+		android:id="@+id/avatar_view" />
 </RelativeLayout>
